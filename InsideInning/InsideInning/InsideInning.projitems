@@ -23,6 +23,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Extension\PositionExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Color.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CrossPushNotification.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\iiControls.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ListImageCell.cs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\TaskUtils.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Pages\iiNavigationPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\LeaveRequestViewPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\NotificationViewPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\PushNotificationViewPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\Setting.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Service\ServiceHandler.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />

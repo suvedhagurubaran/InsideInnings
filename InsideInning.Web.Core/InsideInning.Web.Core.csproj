@@ -57,22 +57,27 @@
     <Compile Include="InsideInning.BLL\BLLHolidayDetails.cs" />
     <Compile Include="InsideInning.BLL\BLLLeaveDetails.cs" />
     <Compile Include="InsideInning.BLL\BLLMailSummary.cs" />
+    <Compile Include="InsideInning.BLL\BLLPushNotification.cs" />
     <Compile Include="InsideInning.BO\BOEmployee.cs" />
     <Compile Include="InsideInning.BO\BOEmployeeDetails.cs" />
     <Compile Include="InsideInning.BO\BOHolidayDetails.cs" />
     <Compile Include="InsideInning.BO\BOLeaveDetails.cs" />
     <Compile Include="InsideInning.BO\BOMailSummary.cs" />
+    <Compile Include="InsideInning.BO\BOPushNotification.cs" />
     <Compile Include="InsideInning.BO\Collections\BOEmployeeDetailsList.cs" />
     <Compile Include="InsideInning.BO\Collections\BOEmployeeList.cs" />
     <Compile Include="InsideInning.BO\Collections\BOHolidayDetailsList.cs" />
     <Compile Include="InsideInning.BO\Collections\BOLeaveDetailsList.cs" />
     <Compile Include="InsideInning.BO\Collections\BOMailSummaryList.cs" />
+    <Compile Include="InsideInning.BO\Collections\BOPushNotificationList.cs" />
     <Compile Include="InsideInning.DAL\DBManagers\tblEmployeeDBManager.cs" />
     <Compile Include="InsideInning.DAL\DBManagers\tblEmployeeDetailsDBManager.cs" />
     <Compile Include="InsideInning.DAL\DBManagers\tblHolidayDetailsDBManager.cs" />
     <Compile Include="InsideInning.DAL\DBManagers\tblLeaveDetailsDBManager.cs" />
     <Compile Include="InsideInning.DAL\DBManagers\tblMailSummaryDBManager.cs" />
+    <Compile Include="InsideInning.DAL\DBManagers\tblPushNotificationDBManager.cs" />
     <Compile Include="InsideInning.DAL\InsideInningDB.cs" />
+    <Compile Include="InsideInning.DAL\Procedures\spCheckLogin.cs" />
     <Compile Include="InsideInning.DAL\Procedures\spGetEmployeeByID.cs" />
     <Compile Include="InsideInning.DAL\Procedures\spGetEmployeeDetails.cs" />
     <Compile Include="InsideInning.DAL\Procedures\spGetEmployeeDetailsByID.cs" />
@@ -83,6 +88,7 @@
     <Compile Include="InsideInning.DAL\tblHolidayDetails.cs" />
     <Compile Include="InsideInning.DAL\tblLeaveDetails.cs" />
     <Compile Include="InsideInning.DAL\tblMailSummary.cs" />
+    <Compile Include="InsideInning.DAL\tblPushNotification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

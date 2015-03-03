@@ -6,7 +6,7 @@ namespace InsideInning.BO
   /// <summary>
   /// The BOEmployee class. [Please feel free to enter extra information]
   /// </summary>
-  public partial class BOEmployee
+  public class BOEmployee
   {
 
       #region Public Properties
